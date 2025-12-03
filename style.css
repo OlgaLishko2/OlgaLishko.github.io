@@ -20,6 +20,32 @@ header {
     border: 3px solid white;
     margin-bottom: 20px;
 }
+.social-links {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    color: #ddd; 
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #00aced; 
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
 
 header h1 {
     margin: 10px 0 5px 0;
@@ -66,7 +92,9 @@ footer {
     color: white;
 }
 section {
-    padding-left: 60px !important;
+    padding-left: 40px;
 }
+
+
 
 
