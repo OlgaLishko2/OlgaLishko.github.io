@@ -65,4 +65,8 @@ footer {
     background-color: #333;
     color: white;
 }
+section {
+    padding-left: 40px !important;
+}
+
 
