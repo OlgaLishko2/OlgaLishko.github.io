@@ -63,14 +63,25 @@ header {
 }
 
 .job-title {
-    font-weight: bold;
     font-size: 18px;
-    background-color: #e6f0ff; 
-    padding: 5px 10px;        
-    border-radius: 5px;         
-    display: inline-block;       
-    margin-bottom: 8px;          
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: #0f4ad2ad;
+    font-family: 'Courier New', monospace;
 }
+
+.job-company {
+    font-size: 16px;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+.job-dates {
+    font-size: 14px;
+    color: #666;
+}
+
 
 header h1 {
     margin: 10px 0 5px 0;
