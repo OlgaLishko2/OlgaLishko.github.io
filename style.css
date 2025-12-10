@@ -7,6 +7,14 @@ body {
     line-height: 1.6; 
 }
 
+section {
+    background-color: white;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
 p {
     margin-bottom: 15px; 
 }
@@ -35,7 +43,10 @@ header {
     justify-content: center; 
     gap: 20px; 
 }
-
+.social-links a:hover {
+    cursor: pointer;
+    color: #00aced; 
+}
 .social-links a {
     display: flex;
     align-items: center;
@@ -45,16 +56,21 @@ header {
     transition: color 0.3s;
 }
 
-.social-links a:hover {
-    color: #00aced; 
-}
-
 .social-icon {
     width: 24px;
     height: 24px;
     margin-right: 8px;
 }
 
+.job-title {
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #e6f0ff; 
+    padding: 5px 10px;        
+    border-radius: 5px;         
+    display: inline-block;       
+    margin-bottom: 8px;          
+}
 
 header h1 {
     margin: 10px 0 5px 0;
@@ -74,15 +90,16 @@ header a {
 main {
     max-width: 900px;
     margin: 30px auto;
-    padding: 0 20px;
+    padding: 0 20px; 
 }
 
 section {
     background-color: white;
-    padding: 20px;
+    padding: 20px 40px;
     margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
 }
 
 h2 {
@@ -100,9 +117,7 @@ footer {
     background-color: #333;
     color: white;
 }
-section {
-    padding-left: 40px;
-}
+
 
 
 

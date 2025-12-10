@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Volha Lishko - QA Engineer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
+<header class="bg-dark text-white text-center py-5">
     <div class="profile">
         <img src="profile.jpg" alt="Volha Lishko" class="profile-photo">
         <h1>Volha Lishko</h1>
@@ -26,15 +27,30 @@
 </header>
 
 
-    <main>
+    <main class="container mt-4">
         <section class="summary">
             <h2>Summary</h2>
           
             <p>QA Engineer with 6 years of experience in manual and automated testing, primarily on FinTech projects and startups, where I built QA processes from the ground up. Passionate about improving user experience, creating clear test documentation, and collaborating closely with developers and product teams. Currently based in Calgary and retraining as a Full-Stack Developer through WIT, updating my skills and gaining hands-on experience with modern development practices.</p>
         </section>
 
-        <section class="technologies">
-            <h2>Technologies</h2>
+ <section class="technologies mb-4">
+    <div class="d-flex align-items-center">
+        <img src="selenium.png" class="img-fluid" style="height:50px;" alt="Selenium">
+
+        <h2 class="mb-0 mx-3">Technologies</h2>
+
+        <div class="d-flex flex-grow-1 justify-content-between">
+            <img src="python.png" class="img-fluid" style="height:40px;" alt="Python">
+            <img src="css.png" class="img-fluid" style="height:40px;" alt="CSS">
+            <img src="js.png" class="img-fluid" style="height:40px;" alt="JavaScript">
+            <img src="html.png" class="img-fluid" style="height:40px;" alt="HTML">
+            <img src="postman.png" class="img-fluid" style="height:40px;" alt="Postman as link">
+            <img src="playwright.png" class="img-fluid" style="height:40px;" alt="Playwright">
+        </div>
+    </div>
+            
+       
             <ul>
                 <li><b>API Testing & Documentation:</b> Postman, Swagger, SoapUI</li>
                 <li><b>Databases:</b> PostgreSQL, MySQL, ClickHouse, Redis</li>
@@ -46,13 +62,14 @@
                 <li><b>Cross-Browser Testing: </b> BrowserStack</li>
                 <li><b>Operating Systems: </b> Windows, macOS</li>
             </ul>
+
         </section>
 
-<section class="experience">
-    <h2>Professional Experience</h2>
+        <section class="experience">
+            <h2>Professional Experience</h2>
 
     <div class="job">
-        <h3>Sr. QA/QC Engineer | Maildoso - Startup (San Francisco, USA) | Jan 2025 - Jun 2025</h3>
+        <h5 class="job-title">Sr. QA/QC Engineer | Maildoso - Startup (San Francisco, USA) | Jan 2025 - Jun 2025</h5>
         <p><b>Project:</b> <a href="https://getmaildoso.com" target="_blank">Maildoso</a> – a cold-email platform helping B2B teams and agencies automate mailbox setup, manage campaigns, and improve deliverability.</p>
 
         <p><b>Responsibilities:</b></p>
@@ -73,7 +90,7 @@
     </div>
 
     <div class="job">
-        <h3>QA Engineer | Village Wellth, Calgary | Oct 2024 - Feb 2025</h3>
+        <h5 class="job-title">QA Engineer | Village Wellth, Calgary | Oct 2024 - Feb 2025</h5>
         <ul>
             <li>Test and validate chatbot functionality through manual and automated testing, including UAT and regression.</li>
             <li>Identify, document, and track defects while collaborating with developers and stakeholders.</li>
@@ -82,7 +99,7 @@
     </div>
 
     <div class="job">
-        <h3>QA/QC Engineer & Release Manager | Godel Technologies Europe (Wroclaw, Poland) | Jun 2022 - Sep 2024</h3>
+        <h5 class="job-title">QA/QC Engineer & Release Manager | Godel Technologies Europe (Wroclaw, Poland) | Jun 2022 - Sep 2024</h5>
         <p><b>Project:</b> <a href="https://www.intelliflo.com" target="_blank">Intelliflo</a> – a leading global platform for financial advisers, implemented for <b>State Farm</b> to provide practice management, financial planning, portfolio management, and digital advisory tools, helping advisors serve clients efficiently.</p>
         <p><b>Responsibilities:</b></p>
         <ul>
@@ -106,7 +123,7 @@
     </div>
 
     <div class="job">
-        <h3>QA Engineer | Andersen (Minsk, Belarus) | Aug 2021 - May 2022</h3>
+        <h5 class="job-title">QA Engineer | Andersen (Minsk, Belarus) | Aug 2021 - May 2022</h5>
         <p><b>Project:</b> <a href="https://www.vtb.com/" target="_blank">VTB Bank</a> – a leading Belarusian bank providing retail and corporate banking services.</p>
         <p><b>Responsibilities:</b></p>
         <ul>
@@ -123,7 +140,7 @@
     </div>
 
     <div class="job">
-        <h3>QA Engineer | Alfa Bank (Minsk, Belarus) | Feb 2019 - Aug 2021</h3>
+        <h5 class="job-title">QA Engineer | Alfa Bank (Minsk, Belarus) | Feb 2019 - Aug 2021</h5>
         <p><b>Project:</b> <a href="https://alfabank.com" target="_blank">Alfa Bank</a> – a major commercial bank offering digital banking services and mobile apps for personal and business clients.</p>
         <p><b>Responsibilities:</b></p>
         <ul>
@@ -158,7 +175,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2025 Volha Lishko</p>
     </footer>
 </body>
